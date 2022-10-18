@@ -6,7 +6,7 @@
 /*   By: mmourdal <mmourdal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 00:37:28 by mmourdal          #+#    #+#             */
-/*   Updated: 2022/10/18 03:53:22 by mmourdal         ###   ########.fr       */
+/*   Updated: 2022/10/18 05:23:17 by mmourdal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,6 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <string.h>
+
+char	*ft_strnstr(const char *big, const char *little, size_t len);
 #endif
